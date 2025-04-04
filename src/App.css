@@ -1,0 +1,66 @@
+body {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.custom-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
+.scale-hover:hover {
+  transform: scale(1.05); /* Grows 5% */
+  cursor: pointer;
+}
+.transition {
+  transition: transform 0.3s ease-in-out;
+}
+
+
+body {
+  padding-top: 56px; /* Default navbar height */
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 30px; /* Adjust for larger screens */
+  }
+}
+
+/* ////////////////////////////////////////// */
+
+.button {
+  background: none;
+  border: none;
+  color: transparent;
+  cursor: pointer;
+}
+/* /////////////popover text css//////////////////// */
+.hover-text {
+  font-size: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-text:hover {
+  transform: scale(1.1); /* Increases size when hovered */
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

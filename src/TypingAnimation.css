@@ -1,0 +1,33 @@
+.typing-container {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid black;
+    animation: typing 3s steps(20, end) infinite alternate;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  /* Cursor Animation */
+  .cursor {
+    display: inline-block;
+    margin-left: 2px;
+    animation: blink 0.8s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
